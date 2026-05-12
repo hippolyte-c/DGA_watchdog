@@ -1,0 +1,22 @@
+# Environnement
+venv_dga/
+__pycache__/
+*.pyc
+
+# Données d'entraînement (trop lourdes)
+data/
+
+# Notebooks exploratoires (remplacés par rf_ngrams.ipynb)
+01_feature_engineering.ipynb
+02_character_ngrams.ipynb
+03_comparison.ipynb
+.ipynb_checkpoints/
+
+# Résultats intermédiaires (plots, métriques, arrays)
+results/*.png
+results/*.json
+results/*.npy
+
+# Fichiers de test
+*.pcap
+*.pcapng
